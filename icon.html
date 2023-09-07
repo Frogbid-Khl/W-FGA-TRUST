@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
+    <style>
+        .line-above-text {
+            margin-top: 5rem;
+            position: relative;
+        }
+
+        .line-above-text::before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background-color: #000;
+            z-index: 1;
+            width: 150px;
+        }
+
+        .line-above-text-2::before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: 0;
+            right: 0;
+            height: 5px;
+            background-color: #997404;
+            z-index: 1;
+            width: 150px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<p>Some content above the line.</p>
+<hr class="line">
+<p>Some content below the line.</p>
+<style>
+    /* Style for the horizontal rule (line) */
+    .line {
+        border: none;
+        height: 1px; /* Set the height to control the thickness of the line */
+        background-color: #000; /* Set the background color to define the line color */
+        margin: 20px 0; /* Adjust margin as needed to position the line vertically */
+    }
+</style>
+<div class="line-above-text">
+    <div class="line-above-text-2">
+    <p>Your text goes here.</p>
+</div>
+</div>
+</body>
+</html>
