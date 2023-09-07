@@ -46,7 +46,7 @@
 }
 .card-text
 {
-    font-size: x-large;
+    font-size: large;
 }
 .ft-btn
 {
@@ -83,4 +83,14 @@
 
 .ft-content-title{
     color: #997404;
+}
+.link-item
+{
+
+    color: #000000;
+}
+.ft-card3
+{
+    background: url("https://fgatrust.com/wp-content/uploads/2022/03/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products-scaled.jpg") no-repeat center;
+    background-size: cover;
 }
