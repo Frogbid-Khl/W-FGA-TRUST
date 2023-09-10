@@ -131,3 +131,13 @@
     background: #997404;
     padding: 15px 10px 10px 15px;
 }
+.ft-service-row{
+    padding-right: unset;
+    padding-left: unset;
+    margin: unset;
+}
+
+.ft-service-row .col-3{
+    padding-right: unset;
+    padding-left: unset;
+}
